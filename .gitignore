@@ -1,0 +1,75 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.npm/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and Editors
+.vscode/ # VSCode specific files
+.idea/   # IntelliJ IDEA / WebStorm specific files
+.DS_Store # macOS files
+Thumbs.db # Windows files
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.envrc
+
+# Build artifacts
+dist/
+build/
+.cache/
+.parcel-cache/
+coverage/ # Test coverage reports
+
+# Node.js specific global modules
+*.tgz
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# Client-side (React with Vite) specific ignores
+# Placed here even though client has its own .gitignore to ensure root catches them
+client/node_modules/
+client/dist/          # Vite build output
+client/.vite/         # Vite cache
+client/.rollup.cache/ # If using Rollup directly or via Vite plugins
+client/*.env.local    # Specific local client envs, if not covered by root .env.*.local
+client/.cache/
+client/coverage/
+
+server/node_modules/
+server/build/
+server/tmp/
+server/logs/
+server/uploads/
+server/coverage/
+
+
+/.git/
+.gitattributes
+.gitkeep
+
+.env
+/server/.env
+.gitignore # hahaha ignore self

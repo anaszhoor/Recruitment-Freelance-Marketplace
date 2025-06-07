@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/main.js\""
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.30",
+    "concurrently": "^9.1.2",
+    "node": "^22.16.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "express": "^5.1.0"
+  }
+}
